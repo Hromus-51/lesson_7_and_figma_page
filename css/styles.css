@@ -1,0 +1,197 @@
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+body {
+    font-family: "Bebas Neue", sans-serif;
+    background: url('../img/pattern_04.png');
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 15px #808080;
+    padding: 20px 20px 20px 20px;
+    border-radius: 3px;
+}
+
+/* шапка */
+.header__box {
+    background: url('../img/book.png') 0 0 / 80px no-repeat;
+}
+.header {
+    text-align: right;
+    background: url('../img/pattern_03.png');
+    padding: 20px 0 20px 0;
+    margin: 0 0 20px 0;
+}
+.title {
+    font-size: 25px;
+    color: 	#696969;
+    margin: 0 0 5px 0;
+    padding: 5px 20px 5px 20px;
+}
+.subtitle {
+    display: inline-block;
+    font-size: 20px;
+    color: 	#696969;
+    padding: 10px 20px 10px 40px;
+    background: url('../img/voskl_30.png') 0 3px/30px auto no-repeat;
+}
+
+/* цвет */
+.background-color {
+    /* background-color: #D3D3D3; */
+    background: url('../img/pattern_03.png');
+    padding: 30px 0 30px 0;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    color: 	#D3D3D3;
+    margin: 0 0 20px 0;
+}
+.background-color__tablet {
+    padding: 40px;
+    margin: 0 0 30px 0;
+    border-radius: 3px;
+}
+.background-color__tablet_1 {
+    background-color: #4682B4;
+}
+.background-color__tablet_2 {
+    background-color: #5F9EA0;
+}
+.background-color__tablet_3 {
+    margin: 0 0 0 0;
+    background-color: #2F4F4F;
+}
+
+/* градиент */
+.background-gradient {
+    background: url('../img/pattern_03.png');
+    padding: 30px 0 30px 0;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #D3D3D3;
+    margin: 0 0 20px 0;
+}
+.background-gradient__tablet {
+    padding: 40px;
+    margin: 0 0 30px 0;
+    border-radius: 3px;
+}
+.background-gradient__tablet_1 {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(34,139,32,1) 51%, rgba(255,255,255,1) 100%);
+}
+.background-gradient__tablet_2 {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(85,107,32,1) 51%, rgba(255,255,255,1) 100%);
+}
+.background-gradient__tablet_3 {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(107,142,35,1) 51%, rgba(255,255,255,1) 100%);
+}
+.background-gradient__tablet_4 {
+    color: 	#191970;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+.background-gradient__tablet_5 {
+    color: 	#191970;
+    background: linear-gradient(0deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+.background-gradient__tablet_6 {
+    margin: 0 0 0 0;
+    color: 	#191970;
+    background: linear-gradient(0deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+/* картинка */
+.background-image {
+    background: url('../img/pattern_03.png');
+    padding: 30px 0 30px 0;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: left;
+    color: 	#696969;
+    margin: 0 0 20px 0;
+}
+.background-image p {
+    margin: 0 0 5px 0;
+    padding: 5px 10px 5px 10px;
+}
+.background-image__tablet {
+    padding: 90px;
+    margin: 0 0 30px 0;
+    border-radius: 3px;
+}
+.background-image__tablet_1 {
+    background: #C0C0C0 url('../img/rasomaha_100.png');
+}
+.background-image__tablet_2 {
+    background: #C0C0C0 url('../img/scream_100.png') no-repeat;
+}
+.background-image__tablet_3 {
+    background: #C0C0C0 url('../img/spider_100.png') repeat-x;
+}
+.background-image__tablet_4 {
+    padding: 150px;
+    background: #C0C0C0 url('../img/mario_100.png') repeat-y;
+}
+.background-image__tablet_5 {
+    padding: 470px;
+    background: url('../img/pixel_02.png') 350px 410px/ 70px no-repeat, url('../img/pixel_02.png') 150px 625px/ 70px no-repeat, url('../img/pixel_02.png') 550px 695px/ 70px no-repeat, url('../img/pixel_02.png') 950px 724px/ 70px no-repeat, url('../img/dick.png') 388px 802px/ 54px no-repeat, url('../img/pixel.png') 0 0/ 1160px no-repeat;
+}
+.background-image_find {
+    font-family: "Press Start 2P";
+    font-size: 30px;
+    color: #2d5f98;
+    text-align: right;
+}
+.background-image__tablet_6 {
+    padding: 470px;
+    background: url('../img/pixel_04.png') center no-repeat, url('../img/pixel_05.png') 350px 650px no-repeat, url('../img/pixel_06.png') 660px 650px no-repeat, url('../img/pixel_03.png') 0 0 / 100% auto no-repeat fixed;
+    box-shadow: inset -20px -20px 70px #2e617a, inset 20px 20px 70px #53abd7c7, 5px 5px 30px #86c1df46;
+    border-radius: 40px;
+    border: 7px solid #202020;
+}
+.background-image__edging {
+    border-radius: 20px;
+    padding: 50px 50px 50px 50px;
+    background: url('../img/pattern_05.png');
+    border: 2px solid #303030;
+    box-shadow: inset -10px -10px 10px #141414, inset 10px 10px 10px #86c1df46 ;
+}
+.background-image__title {
+    font-family: "Geostar Fill", sherif;
+    color: #969595;
+    text-align: right;
+    font-size: 40px;
+}
+.background-image__subtitle {
+    text-align: right;
+}
+.background-image__menu {
+    padding: 10px 10px 10px 10px;
+    background: url('../img/pattern_06.png');
+    border-radius: 8px;
+    box-shadow: inset 5px 5px 5px #141414, inset -5px -5px 5px #313131;
+}
+.background-image__menu li {
+    padding: 5px 5px 5px 37px;
+    background: url('../img/button.png') 0 0 / 30px no-repeat;
+}
+.background-image_link {
+    color: #969595
+}
+
+/* подвал */
+.signature {
+    padding: 30px 10px 30px 20px ;
+    max-width: 210px;
+    margin: 0 auto;
+    font-size: 25px;
+    color: #696969;
+    text-align: center;
+    background: url("../img/flash.png") 0 15px no-repeat;
+}
